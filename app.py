@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 import plotly.express as px
 import streamlit as st
 
-car_data = pd. read_csv('/Users/ALEX/Documents/PY/PROYECTO NUBE/My_space/vehicles_us.csv')
+car_data = pd. read_csv('vehicles_us.csv')
 
 st.header('Lanzar una moneda')
 hist_button = st.button('Construir histograma')
